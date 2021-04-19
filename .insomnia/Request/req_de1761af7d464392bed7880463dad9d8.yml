@@ -1,0 +1,30 @@
+_id: req_de1761af7d464392bed7880463dad9d8
+type: Request
+parentId: wrk_ed4abd34c687446a91d7555b187c9882
+modified: 1617969944448
+created: 1617969899079
+url: https://dev.nomina360.app/api/auth
+name: Recuperar Clave
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"data":{"email":"suarez9ster+exotic@gmail.com"}}'
+parameters:
+  - name: path
+    value: recuperar-clave
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617969899079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_1bf5887089fa4774b7ace24d054be451
+type: Request
+parentId: wrk_ed4abd34c687446a91d7555b187c9882
+modified: 1618842051452
+created: 1618841986026
+url: http://localhost:4000/api/funcAdmin
+name: Tareas
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: path
+    value: tareas
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617949559168.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_bf3cf199161e4e8eab0ec7044a46c64f
+type: Request
+parentId: wrk_ed4abd34c687446a91d7555b187c9882
+modified: 1618832941613
+created: 1618832899785
+url: http://localhost:4000/api/funcAdmin
+name: Personal
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: path
+    value: personal
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: conf
+    value: '{"company":"604ac568e542e929c67bd8ef","parent_company":"604ac568e542e929c67bd8ed"}'
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617945491186.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

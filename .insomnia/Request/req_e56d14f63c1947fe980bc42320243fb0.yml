@@ -1,0 +1,34 @@
+_id: req_e56d14f63c1947fe980bc42320243fb0
+type: Request
+parentId: wrk_ed4abd34c687446a91d7555b187c9882
+modified: 1618833855029
+created: 1618366903134
+url: http://localhost:4000/api/funcAdmin
+name: Dashboard-save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: path
+    value: script/dashboard
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617953627150.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

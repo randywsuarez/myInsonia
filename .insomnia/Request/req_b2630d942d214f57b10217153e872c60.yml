@@ -1,0 +1,34 @@
+_id: req_b2630d942d214f57b10217153e872c60
+type: Request
+parentId: wrk_ed4abd34c687446a91d7555b187c9882
+modified: 1618844433495
+created: 1618833895274
+url: http://localhost:4000/api/funcAdmin
+name: Dashboard-view
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: path
+    value: dashboard2
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: conf
+    value: '{"company":"5f2cc5e3d1d7307a8acb9600","parent_company":"5f2cc4d3d1d7307a8acb94b9"}'
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617941423204.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
