@@ -1,10 +1,10 @@
-_id: req_1bf5887089fa4774b7ace24d054be451
+_id: req_f7b1df75cf3f4aacaa1de023bc5d92d6
 type: Request
-parentId: fld_76f031d6dde94e8082f0641c32b62e7f
-modified: 1619170678653
-created: 1618841986026
-url: http://localhost:4000/api/funcAdmin
-name: Tareas
+parentId: fld_8cc1f92d74484759873a04a77194d41f
+modified: 1618874792399
+created: 1618874701617
+url: https://dev.nomina360.app/api/funcAdmin
+name: Dashboard-save
 description: ""
 method: POST
 body:
@@ -12,7 +12,7 @@ body:
   text: ""
 parameters:
   - name: path
-    value: tareas
+    value: script/dashboard
     description: ""
     id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
   - name: ""
@@ -24,11 +24,11 @@ headers:
     value: application/json
     id: pair_2784cf58bfd245dea0051ec7028ad4c3
 authentication: {}
-metaSortKey: -1617969898979
+metaSortKey: -1618422278137
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
 settingEncodeUrl: true
-settingRebuildPath: true
+settingRebuildPath: false
 settingFollowRedirects: global

@@ -1,30 +1,36 @@
-_id: req_1bf5887089fa4774b7ace24d054be451
+_id: req_2a681003907e4c45afb221cffed1cfcd
 type: Request
 parentId: fld_76f031d6dde94e8082f0641c32b62e7f
-modified: 1619170678653
-created: 1618841986026
+modified: 1619353521330
+created: 1619353006100
 url: http://localhost:4000/api/funcAdmin
-name: Tareas
+name: db-indexGenerate
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"data": {
+    		"tipo": "select"
+    	}
+    }
 parameters:
   - name: path
-    value: tareas
+    value: db/db-indexGenerate
     description: ""
     id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
-  - name: ""
-    value: ""
+  - name: conf
+    value: '{"company":"604ac568e542e929c67bd8ef","parent_company":"604ac568e542e929c67bd8ed"}'
     description: ""
     id: pair_e9a7399788e149b88043138e18b9f156
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
     id: pair_2784cf58bfd245dea0051ec7028ad4c3
 authentication: {}
-metaSortKey: -1617969898979
+metaSortKey: -1617969898994.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
