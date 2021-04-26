@@ -1,10 +1,10 @@
 _id: req_de685583fc9f4df2a7e6cc71fa227b8b
 type: Request
 parentId: fld_76f031d6dde94e8082f0641c32b62e7f
-modified: 1619360106057
+modified: 1619360690320
 created: 1619360095024
 url: http://localhost:4000/api/funcAdmin
-name: db-indexCreate
+name: db-indexUpdate
 description: ""
 method: POST
 body:
@@ -12,13 +12,13 @@ body:
   text: |-
     {
     	"data": {
-    		"collect": "usuarios",
-    		"index": ["__company__"]
+    		"collect": "generate-role-borrador",
+    		"indexes": ["rol", "__company__", "contrato_empleado"]
     	}
     }
 parameters:
   - name: path
-    value: db/db-indexCreate
+    value: db/db-indexUpdate
     description: ""
     id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
   - name: conf
