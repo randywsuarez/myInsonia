@@ -1,0 +1,40 @@
+_id: req_6e5bdfeb51194c6290f2237ae44269c5
+type: Request
+parentId: fld_dd8386db585f48da8021f9015709569e
+modified: 1619447624099
+created: 1619447565147
+url: https://mi.nomina360.app/api/funcAdmin
+name: db-indexGenerate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": {
+    		"tipo": "select"
+    	}
+    }
+parameters:
+  - name: path
+    value: db/db-indexGenerate
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: conf
+    value: '{"company":"604ac568e542e929c67bd8ef","parent_company":"604ac568e542e929c67bd8ed"}'
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1618946136466.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

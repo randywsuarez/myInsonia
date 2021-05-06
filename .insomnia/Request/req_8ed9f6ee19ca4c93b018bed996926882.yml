@@ -1,0 +1,35 @@
+_id: req_8ed9f6ee19ca4c93b018bed996926882
+type: Request
+parentId: fld_76f031d6dde94e8082f0641c32b62e7f
+modified: 1619412563464
+created: 1619410382499
+url: http://localhost:4000/api/funcAdmin
+name: db-listCollections
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"data":{"pagina":2,"tipo":"activos","only":null,"selected":[]}}'
+parameters:
+  - name: path
+    value: db/db-listCollections
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: conf
+    value: '{"company":"604ac568e542e929c67bd8ef","parent_company":"604ac568e542e929c67bd8ed"}'
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617969898992.6719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

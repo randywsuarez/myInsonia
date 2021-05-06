@@ -1,0 +1,36 @@
+_id: req_2f7c59482d4c47fc91c668ab6caa67b2
+type: Request
+parentId: fld_dd8386db585f48da8021f9015709569e
+modified: 1619787468511
+created: 1619787033841
+url: https://mi.nomina360.app/api/funcAdmin
+name: db-indexUpdate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {"data":{"collect":"generate-role-index-borrador","indexes":["_id","empleado","__company__","contrato_empleado","rol"]}}
+parameters:
+  - name: path
+    value: db/db-indexUpdate
+    description: ""
+    id: pair_59c7f9d9c1de40ddafdcea8295d18bcf
+  - name: conf
+    value: '{"company":"604ac568e542e929c67bd8ef","parent_company":"604ac568e542e929c67bd8ed"}'
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1618946136516.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

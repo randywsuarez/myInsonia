@@ -1,0 +1,30 @@
+_id: req_928ef7ca01c54210aceefe492207612b
+type: Request
+parentId: fld_76f031d6dde94e8082f0641c32b62e7f
+modified: 1620218865792
+created: 1620218844622
+url: http://localhost:4000/api/funcAdmin
+name: log-email update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: path
+    value: eventos/update-email
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617969899010.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

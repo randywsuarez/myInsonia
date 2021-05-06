@@ -1,0 +1,30 @@
+_id: req_1a4ce1632e854f81a601b4da54fb39fd
+type: Request
+parentId: fld_76f031d6dde94e8082f0641c32b62e7f
+modified: 1620184504571
+created: 1620184462278
+url: http://localhost:4000/api/funcAdmin
+name: mover archivos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: path
+    value: admin/move-files
+    description: ""
+    id: pair_e9a7399788e149b88043138e18b9f156
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2784cf58bfd245dea0051ec7028ad4c3
+authentication: {}
+metaSortKey: -1617969899016.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
